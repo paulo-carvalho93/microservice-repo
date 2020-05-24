@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: 
+    url: jdbc:mysql://localhost:3306/loja?useTimezone=true&serverTimezone=UTC
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.MariaDB103Dialect
